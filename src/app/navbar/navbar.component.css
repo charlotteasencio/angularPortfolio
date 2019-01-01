@@ -1,0 +1,60 @@
+#menuButton {
+    font-size: 30px; 
+    color: white;
+    cursor: pointer;
+}
+
+#menuButton.hidden {
+    display: none;
+}
+
+#closeButton {
+    float: right;
+    color: white;
+    cursor: pointer;
+}
+
+#closeButton.hidden {
+    display: none;
+}
+
+#fullMenu.hidden {
+    width: 0px;
+    left: -400px;
+}
+
+#fullMenu {
+    height: calc(100vh - 80px);
+    background: rgb(28,28,28);
+    position: absolute;
+    transition: 1s;
+    width: 99%;
+}
+
+#menuOptions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 44px;
+    margin-top: 100px;
+}
+
+#menuOptions h2 {
+    color: white;
+    margin-top: 40px;
+}
+
+.inlineDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.arrowIcon {
+    font-size: 50px;
+    margin-bottom: 35px;
+    margin-right: 50px;
+    color: crimson;
+}
