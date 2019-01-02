@@ -19,6 +19,12 @@ import { MatIconModule } from '@angular/material/icon';
 
 export class HomeComponent implements OnInit {
 
+  scrollToAbout(className: string):void {
+    const elementList = document.querySelectorAll('.'  + className);
+    const element = elementList[0] 
+    element.scrollIntoView({ behavior: 'smooth' })
+  }
+
   constructor() { }
 
   ngOnInit() {
