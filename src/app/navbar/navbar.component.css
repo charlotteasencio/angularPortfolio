@@ -3,9 +3,11 @@
     color: white;
     cursor: pointer;
     z-index: 101;
+    padding: 10px;
+    font-size: 32px;
 }
 
-#menuButton.close:hover {
+#menuButton:hover {
     color: crimson;
     transition: 1s;
 }
@@ -16,7 +18,7 @@
 }
 
 #fullMenu {
-    height: calc(100vh - 80px);
+    height: calc(100vh - 60px);
     background: rgb(28,28,28);
     position: absolute;
     transition: 1s;
@@ -36,7 +38,10 @@
 #menuOptions h2 {
     color: white;
     margin-top: 40px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 94px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 #menuOptions h2:hover {
@@ -55,7 +60,9 @@
     font-size: 54px;
     margin-bottom: 35px;
     margin-right: 70px;
-    color: rgb(220, 20, 60, .9)
+    color: rgb(220, 20, 60, .9);
+    position: relative;
+    top: 25%;
 }
 
 .arrowIcon:hover {
