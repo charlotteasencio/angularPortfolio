@@ -6,3 +6,11 @@
 body {
     background: rgb(28, 28, 28);
 }
+
+.downArrow {
+    color: white;
+    position: relative;
+    top: 20%;
+    z-index: 99;
+    cursor: pointer;
+}
