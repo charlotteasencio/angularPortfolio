@@ -24,8 +24,8 @@ export class NavbarComponent implements OnInit {
   }
 
   openFullMenu() {
-    document.getElementById('menuButton').classList.add("close");
+    document.getElementById('menuButton').classList.toggle("hidden");
     document.getElementById('fullMenu').classList.toggle("hidden");
-    //document.getElementById('closeButton').classList.toggle('hidden');
+    document.getElementById('closeButton').classList.toggle('hidden');
   }
 }
