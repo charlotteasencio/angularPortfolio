@@ -1,10 +1,11 @@
 import { Component, OnInit, NgModule } from '@angular/core';
 import { MatIconModule } from '@angular/material/icon';
 
+
 @Component({
-  selector: 'app-about',
-  templateUrl: './about.component.html',
-  styleUrls: ['./about.component.css']
+  selector: 'app-projects',
+  templateUrl: './projects.component.html',
+  styleUrls: ['./projects.component.css']
 })
 
 @NgModule({
@@ -17,7 +18,7 @@ import { MatIconModule } from '@angular/material/icon';
   bootstrap: []
 })
 
-export class AboutComponent implements OnInit {
+export class ProjectsComponent implements OnInit {
 
   scrollToAbout(className: string):void {
     const elementList = document.querySelectorAll('.'  + className);

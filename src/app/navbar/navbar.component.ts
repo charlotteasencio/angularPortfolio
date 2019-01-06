@@ -24,8 +24,15 @@ export class NavbarComponent implements OnInit {
   }
 
   openFullMenu() {
-    document.getElementById('menuButton').classList.toggle("hidden");
+    //document.getElementById('menuButton').classList.toggle("hidden");
     document.getElementById('fullMenu').classList.toggle("hidden");
-    document.getElementById('closeButton').classList.toggle('hidden');
+    //document.getElementById('closeButton').classList.toggle('hidden');
+  }
+
+  goTo(className: string):void {
+    const elementList = document.querySelectorAll('.'  + className);
+    const element = elementList[0] 
+    element.scrollIntoView({ behavior: 'smooth' })
+    document.getElementById('fullMenu').classList.toggle('hidden');
   }
 }
