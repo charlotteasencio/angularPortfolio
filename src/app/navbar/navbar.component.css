@@ -61,7 +61,7 @@
 }
 
 #menuOptions h2:hover {
-    color: rgb(220, 20, 60);
+    color: gray;
     transition: 1s;
 }
 
@@ -76,12 +76,43 @@
     font-size: 54px;
     margin-bottom: 35px;
     margin-right: 70px;
-    color: rgb(220, 20, 60, .9);
+    /*color: rgb(220, 20, 60, .9);*/
     position: relative;
     top: 25%;
 }
 
-.arrowIcon:hover {
+#homeIcon {
+    color: teal;
+}
+
+#homeIcon:hover {
+    color: white;
+    transition: 1s;
+}
+
+#aboutIcon {
+    color: rgb(220, 20, 60, .9);
+}
+
+#aboutIcon:hover {
+    color: white;
+    transition: 1s;
+}
+
+#projectsIcon {
+    color: rgb(173, 66, 244);
+}
+
+#projectsIcon:hover {
+    color: white;
+    transition: 1s;
+}
+
+#contactIcon {
+    color: darkorange;
+}
+
+#contactIcon:hover {
     color: white;
     transition: 1s;
 }

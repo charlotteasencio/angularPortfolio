@@ -7,8 +7,17 @@
     margin-top: 100px;
 }
 
-.section2 img {
-    margin-top: 100px;
+#stylingDivAbout {
+    flex-grow: 1;
+}
+
+#imageDiv {
+    margin-bottom: 50px;
+}
+
+#contentDiv {
+    text-align: center;
+    flex-grow: 2;
 }
 
 .section2 p {
@@ -18,9 +27,7 @@
     font-size: 18px;
     text-align: center;
     max-width: 1000px;
-    margin-top: 70px;
-    line-height: 20px;
-    flex-grow: 1;
+    line-height: 26px;
 }
 
 #section2DownArrow {

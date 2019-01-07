@@ -6,3 +6,17 @@
     background: rgb(28, 28, 28);
     padding-top: 170px;
 }
+
+#projectLinks {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px;
+}
+
+.workCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
