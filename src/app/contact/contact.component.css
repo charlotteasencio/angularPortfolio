@@ -29,7 +29,7 @@
     border-radius: 10px;
 }
 
-.sendButton {
+button {
     background-color: rgb(0, 127, 127, .9);
     color: white;
     border: none;
@@ -38,6 +38,7 @@
     outline: none;
     box-shadow: -1px 2px #999;
 }
+
 
 .sendButton:hover {
     background-color: rgb(0, 127, 127);
