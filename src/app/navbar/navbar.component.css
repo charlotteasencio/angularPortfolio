@@ -129,4 +129,12 @@
         align-items: flex-start;
         padding-top: 100px;
     }
+
+    #menuOptions h2 {
+        color: white;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 54px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
 }
