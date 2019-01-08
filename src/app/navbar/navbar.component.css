@@ -82,7 +82,7 @@
 }
 
 #homeIcon {
-    color: teal;
+    color: rgb(220, 20, 60);
 }
 
 #homeIcon:hover {
@@ -91,7 +91,7 @@
 }
 
 #aboutIcon {
-    color: rgb(220, 20, 60, .9);
+    color: rgb(117,175,168); 
 }
 
 #aboutIcon:hover {
@@ -100,7 +100,7 @@
 }
 
 #projectsIcon {
-    color: rgb(173, 66, 244);
+    color: rgb(217,180,73)
 }
 
 #projectsIcon:hover {
@@ -109,10 +109,24 @@
 }
 
 #contactIcon {
-    color: darkorange;
+    color: teal;
 }
 
 #contactIcon:hover {
     color: white;
     transition: 1s;
+}
+
+@media only screen and (max-width: 1200px) {
+    #fullMenu {
+        height: 100%;
+        background: rgb(28, 28, 28);
+        position: fixed;
+        transition: 1s;
+        width: 100%;
+        z-index: 100;
+        display: flex;
+        align-items: flex-start;
+        margin-top: 100px;
+    }
 }

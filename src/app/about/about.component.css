@@ -11,13 +11,13 @@
     flex-grow: 1;
 }
 
-#imageDiv {
+.section2 img {
     margin-bottom: 50px;
 }
 
 #contentDiv {
     text-align: center;
-    flex-grow: 2;
+    flex-grow: 1;
 }
 
 .section2 p {
@@ -32,8 +32,25 @@
 
 #section2DownArrow {
     font-size: 44px;
+    color: rgb(217,180,73)
 }
 
 #section2DownArrow:hover {
     color: grey;
+}
+
+@media only screen and (max-width: 1200px) {
+    .section2 {
+        height: auto;
+        margin-top: 0px;
+    }
+
+    #contentDiv {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    #section2DownArrow {
+        display: none;
+    }
 }
