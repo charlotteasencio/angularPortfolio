@@ -56,11 +56,11 @@
     .section3 {
         height: auto;
         margin-top: 70px;
-        background: white;
+        background: rgb(28, 28, 28);
     }
 
     .workCard h2 {
-        color: rgb(28, 28, 28);
+        color: white;
         font-family: 'Roboto', sans-serif;
         font-size: 32px;
         display: flex;
