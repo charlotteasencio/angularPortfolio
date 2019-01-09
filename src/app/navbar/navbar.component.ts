@@ -18,6 +18,8 @@ import { MatIconModule } from '@angular/material/icon';
 })
 export class NavbarComponent implements OnInit {
 
+  showFirst = true;
+
   constructor() { }
 
   ngOnInit() {

@@ -1,4 +1,4 @@
-<mat-icon id="menuButton" (click)="openFullMenu()">menu</mat-icon>
+<div id="menuButton" (click)="showFirst=!showFirst"><mat-icon *ngIf="showFirst" (click)="openFullMenu()">menu</mat-icon><mat-icon *ngIf="!showFirst" (click)="openFullMenu()">close</mat-icon></div>
 
 <div id="fullMenu" class="hidden">
     <!--<mat-icon id="closeButton" class="hidden" (click)="openFullMenu()">close</mat-icon>-->
