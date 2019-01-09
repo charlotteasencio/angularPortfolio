@@ -139,3 +139,21 @@ button {
         margin-bottom: 40px;
     }
 }
+
+@media only screen and (max-width: 400px) {
+    #section4Content form {
+        width: 300px;
+    }
+
+    #section4Content form input {
+        width: 300px;
+    }
+
+    #section4Content form textarea {
+        width: 300px;
+    }
+
+    #centerLinks {
+        margin-bottom: 40px;
+    }
+}
