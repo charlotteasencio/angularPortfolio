@@ -93,6 +93,22 @@ button {
     font-size: 50px;
 }
 
+#resumeDiv {
+    text-decoration: none;
+    background-image: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#resumeDiv p {
+    text-decoration: none;
+    text-emphasis: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5px;
+}
+
 #section4UpArrow {
     font-size: 44px;
     padding-bottom: 40px;
