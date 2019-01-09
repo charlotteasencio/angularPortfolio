@@ -59,11 +59,6 @@
 }
 
 @media only screen and (max-width: 1200px) {
-    .section3 {
-        height: auto;
-        margin-top: 70px;
-        background: rgb(28, 28, 28);
-    }
 
     .workCard h2 {
         color: white;
@@ -75,5 +70,12 @@
     
     #section3DownArrow {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .section3 {
+        height: auto;
+        margin-top: 70px;
     }
 }
