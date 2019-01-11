@@ -13,7 +13,7 @@
 }
 
 #menuButton:hover {
-    color: crimson;
+    color: #dc143c;
     transition: 1s;
 }
 

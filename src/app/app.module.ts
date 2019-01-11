@@ -9,7 +9,6 @@ import { HomeComponent } from './home/home.component';
 import { MatIconModule} from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button'
 import { NavbarComponent } from './navbar/navbar.component';
-import { AboutComponent } from './about/about.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 
@@ -18,7 +17,6 @@ import { ContactComponent } from './contact/contact.component';
     AppComponent,
     HomeComponent,
     NavbarComponent,
-    AboutComponent,
     ProjectsComponent,
     ContactComponent
   ],
