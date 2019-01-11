@@ -33,14 +33,20 @@
     justify-content: center;
 }
 
+#openButton {
+    position: absolute;
+}
+
 #closeButton {
-    color: white;
-    float: right;
-    cursor: pointer;
+    position: absolute;
+}
+
+#openButton.hidden {
+    display: none;
 }
 
 #closeButton.hidden {
-    visibility: hidden;
+    display: none;
 }
 
 #menuOptions {
