@@ -11,6 +11,7 @@ import { MatButtonModule } from '@angular/material/button'
 import { NavbarComponent } from './navbar/navbar.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
+import { ParallaxDirective } from './parallax.directive';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ContactComponent } from './contact/contact.component';
     HomeComponent,
     NavbarComponent,
     ProjectsComponent,
-    ContactComponent
+    ContactComponent,
+    ParallaxDirective
   ],
   imports: [
     BrowserModule,
