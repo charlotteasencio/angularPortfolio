@@ -5,6 +5,8 @@
     align-items: center;
     background: rgb(28, 28, 28);
     padding-top: 70px;
+    position: relative;
+    z-index: 101;
 }
 
 #section4Content {

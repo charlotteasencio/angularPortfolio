@@ -22,7 +22,9 @@
     font-family: 'Fjalla One', sans-serif;
     font-size: 86px;
     margin-bottom: 40px;
-    color: rgb(217,180,73)
+    color: white;
+    position: relative;
+    z-index: 100;
 }
 
 #headerDiv h1:hover {
@@ -37,16 +39,20 @@
     font-size: 34px;
     cursor: default;
     margin-bottom: 20px;
+    position: relative;
+    z-index: 100;
 }
 
 #headerDiv h2:hover {
-    color: crimson;
+    color: #dc143c;
     transition: 2s;
 }
 
 #section1DownArrow {
     font-size: 44px;
-    color: rgb(117,175,168); 
+    color: #dc143c; 
+    position: relative;
+    z-index: 1000;
 }
 
 #section1DownArrow:hover {
@@ -54,7 +60,11 @@
 }
 
 .section1 img {
+    height: 280px;
+    width: 280px;;
     margin-bottom: 50px;
+    position: relative;
+    z-index: 100;
 }
 
 #contentDiv {
@@ -71,6 +81,8 @@
     max-width: 1000px;
     line-height: 26px;
     cursor: default;
+    position: relative;
+    z-index: 100;
 }
 
 .section1 p:hover {
@@ -78,6 +90,196 @@
     transition: 4s;
 }
 
+/*parallax practice*/
+
+/*#yellowTriangle{
+    bottom: 150px;
+    left: 30px;
+    position: fixed;
+    height: 60px;
+    width: 60px;
+    z-index: 99;
+    transition: 4s;
+    opacity: 0.5
+}
+
+#rectangle{
+    position: fixed;
+    top: 100px; 
+    width: 50px;
+    height: 10px;
+    background-color: rgb(117,175,168);
+    transition: 4s;
+    opacity: 0.5
+}
+
+#pinkTriangle{
+    position: fixed;
+    top: 70px; 
+    right: 95px;
+    width: 70px;
+    height: 60px;
+    z-index: 99;
+    transition: 3s;
+    opacity: 0.5
+}
+
+#yellowTriangle2{
+    right: 30px;
+    bottom: 30px;
+    position: fixed;
+    height: 60px;
+    width: 60px;
+    z-index: 99;
+    transition: 5s;
+    opacity: 0.5
+}
+
+#rectangle2 {
+    position: fixed;
+    bottom: 30px; 
+    left: 200px;
+    width: 50px;
+    height: 10px;
+    background-color: rgb(117,175,168);
+    transition: 1s;
+    opacity: 0.5
+}
+
+#pinkTriangle2{
+    position: fixed;
+    bottom: 170px; 
+    left: 495px;
+    width: 70px;
+    height: 60px;
+    z-index: 99;
+    transition: 4s;
+    opacity: 0.5
+}
+
+#yellowTriangle3 {
+    top: 50px;
+    left: 20px;
+    position: fixed;
+    height: 60px;
+    width: 60px;
+    z-index: 99;
+    transition: 1s;
+    opacity: 0.5
+}
+
+#rectangle3 {
+    position: fixed;
+    top: 400px; 
+    right: 80px;
+    width: 50px;
+    height: 10px;
+    background-color: rgb(117,175,168);
+    transition: 4s;
+    opacity: 0.5
+}
+
+#pinkTriangle3 {
+    position: fixed;
+    top: 170px; 
+    left: 95px;
+    width: 70px;
+    height: 60px;
+    z-index: 99;
+    transition: 5s;
+    opacity: 0.5
+}
+
+#yellowTriangle4 {
+    top: 150px;
+    right: 10px;
+    position: fixed;
+    height: 60px;
+    width: 60px;
+    z-index: 99;
+    transition: 1s;
+    opacity: 0.5
+}
+
+#rectangle4 {
+    position: fixed;
+    top: 70px; 
+    right: 780px;
+    width: 50px;
+    height: 10px;
+    background-color: rgb(117,175,168);
+    transition: 7s;
+    opacity: 0.5
+}
+
+#pinkTriangle4 {
+    position: fixed;
+    top: 170px; 
+    width: 70px;
+    height: 60px;
+    z-index: 99;
+    transition: 5s;
+    opacity: 0.5
+}
+
+#yellowTriangle5 {
+    bottom: 50px;
+    left: 820px;
+    position: fixed;
+    height: 360px;
+    width: 260px;
+    z-index: 99;
+    transition: 1s;
+    opacity: 0.5
+}
+
+#rectangle5 {
+    position: fixed;
+    bottom: 100px; 
+    right: 680px;
+    width: 50px;
+    height: 10px;
+    background-color: rgb(117,175,168);
+    transition: 4s;
+    opacity: 0.5
+}
+
+#pinkTriangle5 {
+    position: fixed;
+    top: 270px; 
+    left: 195px;
+    width: 170px;
+    height: 130px;
+    z-index: 99;
+    transition: 5s;
+    opacity: 0.5
+}*/
+
+#mountains1 {
+    position: fixed;
+    width: 100%;
+    bottom: -50;
+    height: 100%;
+    z-index: 99;
+}
+
+#mountains2 {
+    position: fixed;
+    width: 100%;
+    bottom: -50;
+    height: 100%;
+    z-index: 98;
+    opacity: .7;
+}
+
+#mountains3 {
+    position: fixed;
+    width: 100%;
+    bottom: -180;
+    height: 100%;
+    z-index: 97;
+    opacity: .6;
+}
 @media only screen and (max-width: 594px) {
     #headerDiv h2 {
         align-self: baseline;
