@@ -64,14 +64,6 @@
     color: grey;
 }
 
-.section1 img {
-    height: 280px;
-    width: 280px;;
-    margin-bottom: 50px;
-    position: relative;
-    z-index: 100;
-}
-
 #contentDiv {
     text-align: center;
     flex-grow: 1;
