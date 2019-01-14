@@ -1,40 +1,18 @@
 <div class="section1">
-  <div id="stylingDiv"></div>
-  <div id="headerDiv">
-    <h2>Hi! I'm</h2>
-    <h1>Charlotte Asencio</h1>
-    <div id="contentDiv">
-        <img src="../../assets/images/portfolioImage.png">
-        <p>A developer currently residing in Winston-Salem, NC. I am a lover of coffee, reading, travel, and CSS. With a background in Social Work, 
+  <!--<img id="portfolioImage" src="../../assets/images/portfolioImage.png">-->
+  <div id="stylingDiv">
+    <h2 appParallax [ratio]="-0.1">Hi! I'm</h2>
+    <h1 appParallax [ratio]="-0.1">Charlotte Asencio</h1>
+    <p appParallax [ratio]="-0.1">A developer currently residing in Winston-Salem, NC. I am a lover of coffee, reading, travel, and CSS. With a background in Social Work, 
           I am passionate about the way technology can be used to connect and improve the world.
           I am a constant learner who enjoys problem-solving and examining processes and procedures to consistently find ways 
           to improve. I have experience working with multiple technologies including HTML5, CSS, Javascript, jQuery, Node.js, React.js, and Angular.</p>
-      </div>
   </div>
-  <div class="downArrow"><mat-icon id="section1DownArrow" (click)="scrollToAbout('section3')">keyboard_arrow_down</mat-icon></div>
-<img id="mountains1" appParallax [ratio]="0.9" src="../../assets/images/mountains1.png">
-<img id="mountains2" appParallax [ratio]="0.4" src="../../assets/images/mountains2.png">
-<img id="mountains3" appParallax [ratio]="0.2" src="../../assets/images/mountains3.png">
-  <!-- parallax stuff -->
-<!--<img appParallax [ratio]="-0.3" id="yellowTriangle" src="../../assets/images/yellowTriangle.PNG">
-<img appParallax [ratio]="-0.3" id="pinkTriangle" src="../../assets/images/pinkTriangle.png">
-<div appParallax [ratio]="0.9" id="rectangle"></div>
-
-<img appParallax [ratio]="0.5" id="yellowTriangle2" src="../../assets/images/yellowTriangle.PNG">
-<img appParallax [ratio]="-0.1" id="pinkTriangle2" src="../../assets/images/pinkTriangle.png">
-<div appParallax [ratio]="0.7" id="rectangle2"></div>
-
-<img appParallax [ratio]="0.6" id="yellowTriangle3" src="../../assets/images/yellowTriangle.PNG">
-<img appParallax [ratio]="0.3" id="pinkTriangle3" src="../../assets/images/pinkTriangle.png">
-<div appParallax [ratio]="0.4" id="rectangle3"></div>
-
-<img appParallax [ratio]="-0.2" id="yellowTriangle4" src="../../assets/images/yellowTriangle.PNG">
-<img appParallax [ratio]="-0.9" id="pinkTriangle4" src="../../assets/images/pinkTriangle.png">
-<div appParallax [ratio]="-0.2" id="rectangle4"></div>
-
-<img appParallax [ratio]="0.9" id="yellowTriangle5" src="../../assets/images/yellowTriangle.PNG">
-<img appParallax [ratio]="-0.4" id="pinkTriangle5" src="../../assets/images/pinkTriangle.png">
-<div appParallax [ratio]="-0.2" id="rectangle5"></div>-->
-
-
+<!--<div class="downArrow"><mat-icon id="section1DownArrow" (click)="scrollToAbout('section3')">keyboard_arrow_down</mat-icon></div>-->
+<div id="imagesDiv">
+  <img id="mountains1" appParallax [ratio]="0.9" src="../../assets/images/mountains1.png">
+  <img id="mountains2" appParallax [ratio]="0.4" src="../../assets/images/mountains2.png">
+  <img id="mountains3" appParallax [ratio]="-0.2" src="../../assets/images/mountains3.png">
+  <img id="mountains4" appParallax [ratio]="0.7" src="../../assets/images/mountains4.png">
+</div>
 </div>

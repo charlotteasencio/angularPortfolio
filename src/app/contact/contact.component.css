@@ -1,5 +1,5 @@
 .section4 {
-    height: calc(100vh - 50px);
+    height: calc(100vh - 80px);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -91,9 +91,12 @@
 }
 
 #section4UpArrow {
-    font-size: 44px;
-    padding-bottom: 40px;
-    color: crimson
+    font-size: 90px;
+    padding-bottom: 100px;
+    color: crimson;
+    align-self: flex-end;
+    margin-right: 100px;
+    cursor: pointer;
 }
 
 #section4UpArrow:hover {
@@ -114,7 +117,7 @@
     }
     
     #section4UpArrow {
-        display: none;
+        align-self: center;
     }
 
 }

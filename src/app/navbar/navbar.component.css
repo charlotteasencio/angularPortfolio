@@ -2,7 +2,7 @@
     font-size: 30px; 
     color: white;
     cursor: pointer;
-    z-index: 102;
+    z-index: 111;
     padding: 10px;
     font-size: 32px;
     position: fixed;
@@ -27,8 +27,8 @@
     background: rgb(28, 28, 28);
     position: fixed;
     transition: 1s;
-    width: 99%;
-    z-index: 101;
+    width: 100%;
+    z-index: 110;
     display: flex;
     justify-content: center;
 }

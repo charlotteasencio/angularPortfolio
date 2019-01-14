@@ -53,12 +53,6 @@ body {
     background: rgb(28, 28, 28);
 }
 
-.downArrow {
-    color: white;
-    z-index: 99;
-    cursor: pointer;
-}
-
 textarea,
 input.text,
 input[type="text"],
