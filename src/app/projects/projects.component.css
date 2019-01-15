@@ -4,7 +4,6 @@
     flex-direction: column;
     align-items: center;
     background: rgb(72, 72, 72);
-    padding-top: 50px;
     position: relative;
     z-index: 101;
 }
@@ -64,15 +63,11 @@
         display: flex;
         align-items: center;
     }
-    
-    #section3DownArrow {
-        display: none;
-    }
+
 }
 
 @media only screen and (max-width: 1500px) {
     .section3 {
         height: auto;
-        margin-top: 70px;
     }
 }
