@@ -1,1 +1,1 @@
-[Portfolio](www.charlotteasencio.com)
+[Portfolio](charlotteasencio.com)
