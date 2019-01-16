@@ -22,10 +22,9 @@
     font-family: 'Fjalla One', sans-serif;
     font-size: 86px;
     margin-bottom: 40px;
-    color: rgb(28, 28, 28);
+    color: white;
     position: fixed;
     z-index: 100;
-    background: white;
     padding: 10px;
     border-radius: 10px;
     top: 150px
@@ -77,12 +76,12 @@
     max-width: 700px;
     background: rgb(28, 28, 28);
     padding: 10px;
-    border-radius: 8px;
     line-height: 26px;
     cursor: default;
     position: fixed;
     z-index: 100;
     top: 300px;
+    opacity: .85;
 }
 
 /*parallax*/
@@ -144,8 +143,13 @@
 }
 
 @media only screen and (max-width: 660px) {
+    #stylingDiv {
+        margin-left: 0px;
+    }
+
     .section1 h2 {
         font-size: 30px;
+        margin-left: 10px
     }
 
     .section1 h1 {
