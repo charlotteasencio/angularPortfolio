@@ -39,6 +39,7 @@
     font-size: 32px;
     display: flex;
     align-items: center;
+    margin-bottom: 5px;
 }
 
 .workCard h2 i {
