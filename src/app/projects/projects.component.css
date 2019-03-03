@@ -1,5 +1,5 @@
 .section3 {
-    height: calc(100vh - 50px);
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
